@@ -5,7 +5,6 @@ const scrollupbtn = document.getElementById("scroll-up-btn");
 
 window.onscroll = function () {
   var top = window.scrollY;
-  //   console.log(top);
   if (top >= 10) {
     navbar.classList.add("sticky");
   } else {
@@ -30,14 +29,14 @@ scrollupbtn.addEventListener("click", function () {
 
 // typing text animation script
 var typed = new Typed(".typing", {
-  strings: ["Software Engineer", "Developer", "Blogger", "Designer", "Freelancer"],
+  strings: ["Software Engineer", "Web Developer", "Learner"],
   typeSpeed: 70,
   backSpeed: 70,
   loop: true,
 });
 
 var typed = new Typed(".typing-2", {
-  strings: ["Software Engineer", "Developer", "Blogger", "Designer", "Freelancer"],
+  strings: ["Software Engineer", "Web Developer", "Learner"],
   typeSpeed: 70,
   backSpeed: 70,
   loop: true,
