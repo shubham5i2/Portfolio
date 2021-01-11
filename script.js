@@ -29,14 +29,14 @@ scrollupbtn.addEventListener("click", function () {
 
 // typing text animation script
 var typed = new Typed(".typing", {
-  strings: ["Software Engineer", "Web Developer", "Learner"],
+  strings: ["Software Engineer", "Web Developer"],
   typeSpeed: 70,
   backSpeed: 70,
   loop: true,
 });
 
 var typed = new Typed(".typing-2", {
-  strings: ["Software Engineer", "Web Developer", "Learner"],
+  strings: ["Software Engineer", "Web Developer"],
   typeSpeed: 70,
   backSpeed: 70,
   loop: true,
